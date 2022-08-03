@@ -1,0 +1,88 @@
+:root {
+  --dark-text: rgb(16, 16, 49);
+  --light-text: rgb(68, 68, 78);
+  --accent-color: #3e30fe;
+  --gradient: linear-gradient(
+    -20deg,
+    rgb(233, 222, 250) 0%,
+    rgb(251, 252, 219) 100%
+  );
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  margin: 60px 0 20px;
+}
+
+h1 {
+  color: var(--dark-text);
+  font-size: 52px;
+  margin: 5px;
+}
+
+h2,
+h3,
+h4 {
+  color: var(--light-text);
+  margin: 5px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+  color: var(--light-text);
+}
+
+.icon-nav {
+  margin-left: 10px;
+}
+
+.nav a {
+  margin: 20px;
+}
+
+.secondary-button,
+.primary-button {
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.primary-button {
+  background-color: var(--accent-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.primary-button:hover {
+  color: var(--dark-text);
+  background-color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.main div {
+  background: var(--gradient);
+  width: 300px;
+  padding: 10px;
+  margin: 0 15px;
+}
+
+.contact-me {
+  margin: 50px auto;
+}
