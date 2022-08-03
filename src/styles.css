@@ -1,7 +1,7 @@
 :root {
   --dark-text: rgb(16, 16, 49);
   --light-text: rgb(68, 68, 78);
-  --accent-color: #3e30fe;
+  --accent-color: #0054b1;
   --gradient: linear-gradient(
     -20deg,
     rgb(233, 222, 250) 0%,
@@ -94,7 +94,7 @@ p {
   margin: 50px auto;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 36px;
   }
